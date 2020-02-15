@@ -76,7 +76,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 220px;
   height: 47px;
 
@@ -176,7 +175,7 @@ ul {
 }
 
 .about-company p {
-  font-family: "PtSans", "Arial", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 1.85;
 }
@@ -197,7 +196,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 220px;
   height: 68px;
 
@@ -239,4 +237,147 @@ ul {
 
 .contacts-back a {
   color: #ffd180;
+}
+
+.user-block .user {
+  height: 45px;
+  width: 299px;
+  padding: 14px 0 11px 47px;
+}
+
+.user a {
+  font-size: 21px;
+  color: #000000;
+}
+
+.header-login--catalog a{
+  font-size: 16px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.main-catalog {
+  font-family: "PTSans", "Arial", sans-serif;
+}
+
+.bread{
+  font-size: 13px;
+}
+
+.bread a {
+  color: #000000;
+}
+
+.catalog-title {
+  height: 89px;
+  padding: 32px 0 34px 30px;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #32425c;
+  text-transform: uppercase;
+
+  background-color: #f2f6f8;
+}
+
+.catalog-title h1 {
+  margin: 0;
+}
+
+.title-block {
+  font-size: 13px;
+
+  width: 220px;
+  height: 38px;
+
+  background-color: #f7f3ec;
+}
+
+.sorted {
+  font-size: 13px;
+  height: 38px;
+  width: 700px;
+
+  background-color: #f7f3ec;
+}
+
+.sorted-list a {
+  color: #000000;
+}
+
+.filter legend {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filter label {
+  font-size: 15px;
+}
+
+.filter button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 38px;
+
+  border: 1px solid #e5e5e5;
+
+  cursor: pointer;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+}
+
+.product-item span {
+  font-size: 17px;
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.product-item a {
+  display: flex;
+  align-items: center;
+  padding-left: 36px;
+  width: 141px;
+  height: 38px;
+
+  font-size: 17px;
+
+  background-image: url('../img/item-button.svg');
+}
+
+.pages li {
+  font-size: 13px;
+  border: 1px solid #e5e5e5;
+}
+
+.pages a{
+  color: #000000;
+}
+
+.active {
+  background-color: #ee3643;
+}
+
+.active a {
+  color: #ffffff;
+}
+
+.service-back {
+  background-color: #f4f7f9;
+}
+
+.service-back h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.service-back p {
+  font-size: 13px;
+  line-height: 1.85;
 }
