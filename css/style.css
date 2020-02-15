@@ -239,6 +239,14 @@ ul {
   color: #ffd180;
 }
 
+.contacts-back a:hover {
+  text-decoration: underline;
+}
+
+.contacts-back a:active {
+  color: #ee3643;
+}
+
 .user-block .user {
   height: 45px;
   width: 299px;
@@ -294,7 +302,7 @@ ul {
 
 .sorted {
   font-size: 13px;
-  height: 38px;
+  height: 100px;
   width: 700px;
 
   background-color: #f7f3ec;
@@ -302,6 +310,19 @@ ul {
 
 .sorted-list a {
   color: #000000;
+  border-bottom: 1px dashed #ee3643;
+  opacity: 0.3;
+}
+
+.sorted-list a:hover {
+  opacity: 1;
+  border-bottom-style: solid;
+}
+
+.sorted-list a:active {
+  opacity: 1;
+  border: 0;
+  color: #ee3643
 }
 
 .filter legend {
@@ -355,6 +376,14 @@ ul {
   border: 1px solid #e5e5e5;
 }
 
+.pages li:hover {
+  border-color: #bdc6ca;
+}
+
+.pages li:active {
+  border-color: #ee3643;
+}
+
 .pages a{
   color: #000000;
 }
@@ -381,3 +410,4 @@ ul {
   font-size: 13px;
   line-height: 1.85;
 }
+
