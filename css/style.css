@@ -50,6 +50,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 img {
@@ -57,3 +58,48 @@ img {
   height: auto;
 }
 
+.header {
+  font-family: "Cuprum", "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #f4f7f9;
+}
+
+.header-top {
+  font-size: 17px;
+  background-color: #293449;
+}
+
+.header-link a:last-child {
+  background-color:#63a63e;
+}
+
+.header-title {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.44;
+  color: #ee3643;
+}
+
+.header-number {
+  font-size: 21px;
+  color: #ee3643;
+}
+
+.header-addres {
+  font-size: 14px;
+  color: #32425c;
+}
+
+.header-login {
+  font-size: 21px;
+}
+
+.header-login a {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-navigation {
+  font-size: 17px;
+  background-color: #293449;
+}
