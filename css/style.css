@@ -63,7 +63,6 @@ ul {
 }
 
 .header {
-  font-family: "Cuprum", "Arial", sans-serif;
   color: #ffffff;
   background-color: #f4f7f9;
 }
@@ -110,7 +109,6 @@ ul {
 
 
 .about-company {
-  font-family: "Cuprum", "Arial", sans-serif;
   color: #000000;
 }
 
@@ -130,4 +128,8 @@ ul {
 
 .about-company a {
   background-color: #ee3643;
+}
+
+.footer {
+  background-color: #32425c;
 }
