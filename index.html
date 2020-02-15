@@ -73,34 +73,44 @@
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main class="main-index">
+      <section class="promo-section">
         <h2 class="visually-hidden">Каталог товаров</h2>
-        <ul>
-          <li>
+        <ul class="promo-list">
+          <li class="promo-item yellow-block">
             <h3>Материалы</h3>
-            <a href="#">На любой вкус</a>
+            <div class="promo-button">
+              <a href="#">На любой вкус</a>
+            </div>
           </li>
-          <li>
+          <li class="promo-item blue-block">
             <h3>Инструмент</h3>
-            <a href="#">На все случаи жизни</a>
+            <div class="promo-button">
+              <a href="#">На все случаи жизни</a>
+            </div>
           </li>
-          <li>
+          <li class="promo-item pink-block">
             <h3>Техника</h3>
-            <a href="#">Для стройка</a>
+            <div class="promo-button">
+              <a href="#">Для стройка</a>
+            </div>
           </li>
-          <li>
+          <li class="promo-item green-block">
             <h3>Скидкт 50%</h3>
-            <a href="#">На 350 товаров</a>
+            <div class="promo-button">
+              <a href="#">На 350 товаров</a>
+            </div>
           </li>
-          <li>
+          <li class="promo-item orange-block">
             <h3>Доставка</h3>
-            <a href="#">Бесплатно</a>
+            <div class="promo-button">
+              <a href="#">Бесплатно</a>
+            </div>
           </li>
         </ul>
-        <div>
-          <ul>
-            <li>
+        <div class="promo-slider">
+          <ul class="slider-list">
+            <li class="slider-item">
               <h3>Дрели</h3>
               <p>Соседям на радость!</p>
               <img
@@ -110,9 +120,11 @@
                 width="620"
                 height="266"
               />
-              <a href="catalog.html">Открыть каталог</a>
+              <div class="button slider-button">
+                <a href="catalog.html">Открыть каталог</a>
+              </div>
             </li>
-            <li>
+            <li class="slider-item">
               <h3>Перфораторы</h3>
               <p>Настоящие мужские игрушки</p>
               <img
@@ -122,18 +134,24 @@
                 width="620"
                 height="266"
               />
-              <a href="catalog.html">Открыть каталог</a>
+              <div class="button slider-button">
+                <a href="catalog.html">Открыть каталог</a>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
       <section>
-        <h2>Популярные товары:</h2>
-        <a href="#">Все популярные товары</a>
+        <div class="popular">
+          <h2>Популярные товары:</h2>
+            <div class="button popular-button">
+              <a href="#">Все популярные товары</a>
+            </div>
+        </div>
 
-        <ul>
-          <li>
+        <ul class="popular-list">
+          <li class="product-item">
             <h3>Перфоратор BOSCH BFG 9000</h3>
             <img
               src="img/item-image.jpg"
@@ -145,7 +163,7 @@
             <span>32500 р.</span>
             <a>25500р</a>
           </li>
-          <li>
+          <li class="product-item">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <img
               src="img/item-image2.jpg"
@@ -157,7 +175,7 @@
             <span>22500 р.</span>
             <a>15500р</a>
           </li>
-          <li>
+          <li class="product-item">
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <img
               src="img/item-image3.jpg"
@@ -169,7 +187,7 @@
             <span>30500 р.</span>
             <a>25500р</a>
           </li>
-          <li>
+          <li class="product-item">
             <h3>Перфоратор BOSCH BFG 2000</h3>
             <img
               src="img/item-image2.jpg"
@@ -184,8 +202,12 @@
       </section>
 
       <section>
-        <h2>Популярные производители:</h2>
-        <a href="#">Все популярные товары</a>
+        <div class="popular">
+          <h2>Популярные производители:</h2>
+          <div class="button popular-button">
+            <a href="#">Все популярные товары</a>
+          </div>
+        </div>
 
         <ul>
           <li>
@@ -271,20 +293,20 @@
         </ul>
       </section>
 
-      <section>
+      <section class="services">
         <h2>Сервисы</h2>
         <p>
           Хороший интернет-магазин отличается от плохого не только ценами! Мы
           стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
 
-        <ul>
-          <li>Доставка</li>
+        <ul class="services-list">
+          <li class="active-item">Доставка</li>
           <li>Гарантия</li>
           <li>Кредит</li>
         </ul>
 
-        <div>
+        <div class="services-item">
           <h3>Доставка</h3>
           <p>
             Мы с удовольствием доставим ваш товар прямо к вашему подъезду
@@ -293,7 +315,7 @@
           </p>
           <div></div>
         </div>
-        <div>
+        <div class="services-item">
           <h3>Гарантия</h3>
           <p>
             Если купленный у нас товар поломается или заискрит, а также в случае
@@ -303,7 +325,7 @@
           </p>
           <div></div>
         </div>
-        <div>
+        <div class="services-item">
           <h3>Кредит</h3>
           <p>
             Залезть в долговую яму стало проще! Кредитные консультанты придут
@@ -332,7 +354,9 @@
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <a href="#">Подробнее о компании</a>
+          <div class="button company-button">
+            <a href="#">Подробнее о компании</a>
+          </div>
         </div>
 
         <div>
@@ -349,7 +373,9 @@
               alt="Мы находимся по адресу Большая Конюшенная улица, дом 19"
           /></a>
 
-          <a href="#">Заблудились? Напишите нам!</a>
+          <div class="button feedback-button">
+            <a href="#">Заблудились? Напишите нам!</a>
+          </div>
         </div>
       </section>
     </main>
