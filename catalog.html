@@ -75,8 +75,8 @@
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main class="main-catalog">
+      <section class="bread">
         <h2 class="visually-hidden">Заголовок хлебных крошек</h2>
         <ul>
           <li><a href="#">Каталог</a></li>
@@ -85,89 +85,86 @@
         </ul>
       </section>
 
-      <h2>Перфораторы</h2>
+      <div class="catalog-title">
+        <h2>Перфораторы</h2>
+      </div>
 
-      <section>
-        <h2>Фильтрация товаров</h2>
+      <section class="filtration">
+        <h2 class="visually-hidden">Фильтрация товаров</h2>
         <!--Изменить тут всё-->
+        <p>Фильтры</p>
+        <div class="sorted">
+          <p>Сортировка</p>
+          <ul class="sorted-list">
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="">По функционалу</a></li>
+            <li><a href="">По возрастанию</a></li>
+            <li><a href="">По убыванию</a></li>
+          </ul>
+        </div>
 
-        <section>
-          <h2>Фильтры</h2>
-          <div>
-            <p>Сортировка</p>
-            <ul>
-              <li><a href="#">По цене</a></li>
-              <li><a href="#">По типу</a></li>
-              <li><a href="">По функционалу</a></li>
-              <li><a href="">По возрастанию</a></li>
-              <li><a href="">По убыванию</a></li>
+        <form action="#" method="post" class="filter">
+          <fieldset class="filter-price">
+            <legend>Цена</legend>
+            <div>Для ползунка</div>
+            <input type="text" placeholder="0" />
+            <input type="text" placeholder="30000" />
+          </fieldset>
+          <fieldset class="filter-produce">
+            <legend>Производители</legend>
+            <ul class="produce-list">
+              <li>
+                <input type="checkbox" value="Bosch" id="bosch" /><label
+                  for="bosch"
+                  >Bosch
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" value="Интерскол" id="inter" /><label
+                  for="inter"
+                  >Интерскол</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" value="Makita" id="makita" /><label
+                  for="makita"
+                  >Makita</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" value="Dewalt" id="dewalt" /><label
+                  for="dewalt"
+                  >Dewalt</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" value="Hitachi" id="hitachi" /><label
+                  for="hitachi"
+                  >Hitachi</label
+                >
+              </li>
             </ul>
-          </div>
+          </fieldset>
 
-          <form action="#" method="post">
-            <fieldset>
-              <legend>Цена</legend>
-              <div>Для ползунка</div>
-              <input type="text" placeholder="0" />
-              <input type="text" placeholder="30000" />
-            </fieldset>
-            <fieldset>
-              <legend>Производители</legend>
-              <ul>
-                <li>
-                  <input type="checkbox" value="Bosch" id="bosch" /><label
-                    for="bosch"
-                    >Bosch
-                  </label>
-                </li>
-                <li>
-                  <input type="checkbox" value="Интерскол" id="inter" /><label
-                    for="inter"
-                    >Интерскол</label
-                  >
-                </li>
-                <li>
-                  <input type="checkbox" value="Makita" id="makita" /><label
-                    for="makita"
-                    >Makita</label
-                  >
-                </li>
-                <li>
-                  <input type="checkbox" value="Dewalt" id="dewalt" /><label
-                    for="dewalt"
-                    >Dewalt</label
-                  >
-                </li>
-                <li>
-                  <input type="checkbox" value="Hitachi" id="hitachi" /><label
-                    for="hitachi"
-                    >Hitachi</label
-                  >
-                </li>
-              </ul>
-            </fieldset>
+          <fieldset class="filter-power">
+            <legend>Питание</legend>
+            <ul class="power-list">
+              <li>
+                <input type="radio" name="power" id="accum" /><label for="accum"
+                  >Аккумуляторные</label
+                >
+              </li>
+              <li>
+                <input type="radio" name="power" id="mains" /><label for="mains"
+                  >Сетевые</label
+                >
+              </li>
+            </ul>
+          </fieldset>
 
-            <fieldset>
-              <legend>Питание</legend>
-              <ul>
-                <li>
-                  <input type="radio" name="power" id="accum" /><label
-                    for="accum"
-                    >Аккумуляторные</label
-                  >
-                </li>
-                <li>
-                  <input type="radio" name="power" id="mains" /><label
-                    for="mains"
-                    >Сетевые</label
-                  >
-                </li>
-              </ul>
-            </fieldset>
-
-            <button type="submit">Показать</button>
-          </form>
-        </section>
+          <button type="submit">Показать</button>
+        </form>
       </section>
 
       <section>
