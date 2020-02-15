@@ -72,13 +72,51 @@ ul {
   background-color: #f4f7f9;
 }
 
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 220px;
+  height: 47px;
+
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+
+.header-logo:hover,
+.header-logo:focus,
+.footer-logo:hover,
+.footer-logo:focus {
+  background-color: #ca2c37;
+}
+
+.header-logo:active,
+.footer-logo:active {
+  background-color: #ba2732;
+}
+
 .header-top {
   font-size: 17px;
   background-color: #293449;
 }
 
+.header-link a:focus,
+.header-link a:hover {
+  background-color: #212a3a;
+}
+
 .header-link a:last-child {
   background-color: #63a63e;
+}
+
+.header-link a:last-child:hover,
+.header-link a:last-child:focus{
+  background-color: #5fbb2d;
+}
+
+.header-link a:active {
+  opacity: 0.6;
 }
 
 .header-title {
@@ -107,9 +145,26 @@ ul {
   background-color: #ffffff;
 }
 
+.header-login a:hover{
+  color: #ee3643;
+}
+
+.header-login a:active {
+  opacity: 0.3;
+}
+
 .header-navigation {
   font-size: 17px;
-  background-color: #293449;
+  background-color: #32425c;
+}
+
+.menu-item:hover {
+  background-color: #293429;
+}
+
+.menu-item:active {
+  background-color: #1d2739;
+  opacity: 0.5;
 }
 
 .about-company {
@@ -138,8 +193,28 @@ ul {
   background-color: #32425c;
 }
 
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 220px;
+  height: 68px;
+
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+
 .footer-navigation {
   font-size: 18px;
+}
+
+.footer-navigation a:hover{
+  text-decoration: underline;
+}
+
+.footer-navigation a:active {
+  opacity: 0.5;
 }
 
 .site-nav a {
