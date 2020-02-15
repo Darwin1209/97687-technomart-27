@@ -1,37 +1,42 @@
 /* cuprum-regular - cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/cuprum.woff2') format('woff2'), url('../fonts/cuprum.woff') format('woff');
+  src: url("../fonts/cuprum.woff2") format("woff2"),
+    url("../fonts/cuprum.woff") format("woff");
 }
 /* cuprum-italic - cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   font-style: italic;
   font-weight: 400;
-  src: url('../fonts/cuprumitalic.woff2') format('woff2'), url('../fonts/cuprumitalic.woff') format('woff');
+  src: url("../fonts/cuprumitalic.woff2") format("woff2"),
+    url("../fonts/cuprumitalic.woff") format("woff");
 }
 /* cuprum-700 - cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/cuprumbold.woff2') format('woff2'), url('../fonts/cuprumbold.woff') format('woff');
+  src: url("../fonts/cuprumbold.woff2") format("woff2"),
+    url("../fonts/cuprumbold.woff") format("woff");
 }
 /* pt-sans-regular - cyrillic */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/ptsans.woff2') format('woff2'), url('../fonts/ptsans.woff') format('woff');
+  src: url("../fonts/ptsans.woff2") format("woff2"),
+    url("../fonts/ptsans.woff") format("woff");
 }
 /* pt-sans-700 - cyrillic */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/ptsansbold.woff2') format('woff2'), url('../fonts/ptsansbold.woff') format('woff');
+  src: url("../fonts/ptsansbold.woff2") format("woff2"),
+    url("../fonts/ptsansbold.woff") format("woff");
 }
 
 html {
@@ -45,7 +50,7 @@ html {
 }
 
 body {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 a {
@@ -73,7 +78,7 @@ ul {
 }
 
 .header-link a:last-child {
-  background-color:#63a63e;
+  background-color: #63a63e;
 }
 
 .header-title {
@@ -107,7 +112,6 @@ ul {
   background-color: #293449;
 }
 
-
 .about-company {
   color: #000000;
 }
@@ -132,4 +136,32 @@ ul {
 
 .footer {
   background-color: #32425c;
+}
+
+.footer-navigation {
+  font-size: 18px;
+}
+
+.site-nav a {
+  color: #f1f5f7;
+}
+
+.product-nav a {
+  color: #ffd180;
+}
+
+.footer-info p {
+  font-size: 18px;
+  line-height: 1.33;
+  color: #f3f7f9;
+}
+
+.footer-contacts-back {
+  font-size: 16px;
+  line-height: 1.13;
+  color: #ffffff;
+}
+
+.contacts-back a {
+  color: #ffd180;
 }
