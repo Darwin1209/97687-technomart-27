@@ -67,6 +67,12 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   color: #ffffff;
   background-color: #f4f7f9;
@@ -81,6 +87,16 @@ ul {
 
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
   background-color: #ee3643;
+}
+
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top div {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo:hover,
@@ -118,30 +134,74 @@ ul {
   opacity: 0.6;
 }
 
+.header-middle .container {
+  display: flex;
+  margin-top: 47px;
+  margin-bottom: 43px;
+}
+
 .header-title {
+  width: 197px;
+  margin: 0;
+  margin-left: 60px;
+
   font-size: 16px;
   font-style: italic;
   line-height: 1.44;
+
   color: #ee3643;
 }
 
+.header-info {
+  width: 270px;
+  margin-left: 71px;
+  text-align: center;
+}
+
 .header-number {
+  border: 3px solid #ffffff;
+  padding: 8px 0 6px 40px;
+}
+
+.header-number a{
+  padding: 0;
+  border: 0;
+
   font-size: 21px;
   color: #ee3643;
 }
 
 .header-addres {
+  margin-top: 10px;
   font-size: 14px;
   color: #32425c;
 }
 
 .header-login {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 78px;
+  padding: 0;
+
   font-size: 21px;
 }
 
 .header-login a {
   color: #000000;
   background-color: #ffffff;
+  display: block;
+}
+
+.login-input {
+  margin-right: 10px;
+}
+
+.login-input a{
+  padding: 11px 27px 10px 48px;
+}
+
+.login-reg a {
+  padding: 11px 15px 10px 15px;
 }
 
 .header-login a:hover {
@@ -152,9 +212,25 @@ ul {
   opacity: 0.3;
 }
 
-.header-navigation {
+.header-navigation .container {
+  padding-bottom: 60px;
+}
+
+.navigation-menu {
+  display: flex;
+  padding: 0;
+
   font-size: 17px;
   background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
+}
+
+.menu-item {
+  flex-grow: 1;
+  padding-top: 19px;
+  padding-bottom: 22px;
+
+  text-align: center;
 }
 
 .menu-item:hover {
