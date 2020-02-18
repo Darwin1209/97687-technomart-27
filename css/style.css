@@ -163,7 +163,7 @@ ul {
   padding: 8px 0 6px 40px;
 }
 
-.header-number a{
+.header-number a {
   padding: 0;
   border: 0;
 
@@ -196,7 +196,7 @@ ul {
   margin-right: 10px;
 }
 
-.login-input a{
+.login-input a {
   padding: 11px 27px 10px 48px;
 }
 
@@ -240,6 +240,13 @@ ul {
 .menu-item:active {
   background-color: #1d2739;
   opacity: 0.5;
+}
+
+.promo-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .promo-item {
@@ -353,7 +360,7 @@ ul {
 
   font-size: 30px;
   text-transform: uppercase;
-  color: #32425c;;
+  color: #32425c;
 }
 
 .popular-button {
@@ -601,31 +608,6 @@ ul {
   cursor: pointer;
 }
 
-.product-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.11;
-}
-
-.product-item span {
-  font-size: 17px;
-  text-decoration: line-through;
-  color: #999999;
-}
-
-.product-item a {
-  display: flex;
-  align-items: center;
-  padding-left: 36px;
-  width: 141px;
-  height: 38px;
-
-  font-size: 17px;
-
-  background-image: url("../img/item-button.svg");
-  cursor: pointer;
-}
-
 .pages li {
   font-size: 13px;
   border: 1px solid #e5e5e5;
@@ -683,4 +665,89 @@ ul {
 .brands-item:active {
   opacity: 0.3;
   box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 21px 0;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  min-height: 318px;
+  padding-bottom: 21px;
+
+  border: 1px solid #eaeaea;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  margin: 0;
+}
+
+.product-item span {
+  font-size: 17px;
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.product-item a {
+  display: flex;
+  align-items: center;
+  padding-left: 36px;
+  margin-left: 10px;
+  width: 141px;
+  height: 38px;
+
+  font-size: 17px;
+
+  background-image: url("../img/item-button.svg");
+  cursor: pointer;
+}
+
+.product-item img {
+  order: -1;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 21px 0;
+}
+
+.brands-item {
+  margin-bottom: 20px;
+}
+
+.services {
+  margin-top: 65px;
+}
+
+.about-company {
+  margin-top: 82px;
+  margin-bottom: 86px;
+}
+
+.about-company .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  width: 520px;
+}
+
+.contacts p {
+  width: 195px;
 }
