@@ -97,6 +97,68 @@ ul {
   background-color: #ee3643;
 }
 
+.search-block {
+  position: relative;
+  width: 270px;
+}
+
+.svg {
+  position: absolute;
+  opacity: 0.3;
+}
+
+.svg path {
+  fill: #ffffff;
+}
+
+.svg:hover path {
+  fill: #ffffff;
+}
+
+.svg:hover {
+  opacity: 1;
+}
+
+.icon-search {
+  left: 17px;
+}
+
+.icon-buckmark  {
+  left: 13px;
+}
+
+.cart-icon {
+  left: 15px;
+}
+
+.header-search {
+  width: 270px;
+  padding: 14px 0 16px 50px;
+
+  font-size: 17px;
+  line-height: 1.06;
+  color: #ffffff;
+  background-color: #293449;
+  border: 0;
+}
+
+.header-search:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-search:focus ~ svg path {
+  fill: #ee3643;
+}
+
+.header-search:focus ~ svg {
+  opacity: 1;
+}
+
+.header-search::placeholder {
+  color: #ffffff;
+}
+
 .header-top .container {
   display: flex;
   justify-content: space-between;
@@ -124,21 +186,32 @@ ul {
   background-color: #293449;
 }
 
-.header-link a:focus,
-.header-link a:hover {
+.header-top a{
+  display: block;
+  position: relative;
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+
+.header-top a:focus,
+.header-top a:hover {
   background-color: #212a3a;
 }
 
-.header-link a:last-child {
+.header-top a:last-child {
+  padding-left: 0;
+  text-align: center;
   background-color: #63a63e;
 }
 
-.header-link a:last-child:hover,
-.header-link a:last-child:focus {
+.header-top a:last-child:hover,
+.header-top a:last-child:focus {
   background-color: #5fbb2d;
 }
 
-.header-link a:active {
+.header-top a:active {
   opacity: 0.6;
 }
 
@@ -226,6 +299,7 @@ ul {
 
 .navigation-menu {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
@@ -236,17 +310,22 @@ ul {
 
 .menu-item {
   flex-grow: 1;
+
+}
+
+.menu-item-link {
+  display: block;
   padding-top: 19px;
   padding-bottom: 22px;
 
   text-align: center;
 }
 
-.menu-item:hover {
+.menu-item-link:hover {
   background-color: #293429;
 }
 
-.menu-item:active {
+.menu-item-link:active {
   background-color: #1d2739;
   opacity: 0.5;
 }
