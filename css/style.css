@@ -322,7 +322,7 @@ ul {
 }
 
 .menu-item-link:hover {
-  background-color: #293429;
+  background-color: #293449;
 }
 
 .menu-item-link:active {
@@ -447,6 +447,7 @@ ul {
   margin: 0;
 
   font-size: 30px;
+  font-weight: normal;
   text-transform: uppercase;
   color: #32425c;
 }
@@ -668,13 +669,17 @@ ul {
 }
 
 .brands-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 220px;
   height: 145px;
 
   border: 1px solid #eaeaea;
+}
+
+.brands-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .brands-item:hover {
@@ -974,3 +979,6 @@ ul {
   margin-top: 21px;
 }
 
+.none {
+  display: none;
+}
