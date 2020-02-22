@@ -777,6 +777,10 @@ ul {
 
 //Styles for catalog
 
+.user-block {
+  margin-left: auto;
+}
+
 .main-catalog {
   font-family: "PTSans", "Arial", "sans-serif";
 }
