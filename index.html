@@ -58,8 +58,8 @@
               viewBox="0 0 15 15"
               class="cart-icon svg"
             >
-              <circle cx="4.5" cy="13.5" r="1.5" fill="#ffffff"/>
-              <circle cx="12.5" cy="13.5" r="1.5" fill="#ffffff"/>
+              <circle cx="4.5" cy="13.5" r="1.5" fill="#ffffff" />
+              <circle cx="12.5" cy="13.5" r="1.5" fill="#ffffff" />
               <path
                 d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"
               />
@@ -127,69 +127,77 @@
       <div class="container">
         <section class="promo-section">
           <h2 class="visually-hidden">Каталог товаров</h2>
-          <ul class="promo-list">
-            <li class="promo-item yellow-block">
-              <h3>Материалы</h3>
-              <div class="promo-button">
-                <a href="#">На любой вкус</a>
+          <div class="column">
+            <div class="left-column">
+              <ul class="promo-list">
+                <li class="promo-item yellow-block">
+                  <h3>Материалы</h3>
+                  <div class="promo-button">
+                    <a href="#">На любой вкус</a>
+                  </div>
+                </li>
+                <li class="promo-item blue-block">
+                  <h3>Инструмент</h3>
+                  <div class="promo-button">
+                    <a href="#">На все случаи</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="promo-slider">
+                <ul class="slider-list">
+                  <li class="slider-item">
+                    <h3>Дрели</h3>
+                    <p>Соседям на радость!</p>
+                    <img
+                      src="img/slider-image-drel.jpg"
+                      srcset="img/slider-image-drel@2x.jpg 2x"
+                      alt="Фотография дрели? "
+                      width="620"
+                      height="266"
+                    />
+                    <div class="button slider-button">
+                      <a href="catalog.html">Открыть каталог</a>
+                    </div>
+                  </li>
+                  <li class="slider-item none">
+                    <h3>Перфораторы</h3>
+                    <p>Настоящие мужские игрушки</p>
+                    <img
+                      src="img/slide-image-perf.jpg"
+                      srcset="img/slide-image-perf@2x.jpg 2x"
+                      alt="Фотография перфоратора? "
+                      width="620"
+                      height="266"
+                    />
+                    <div class="button slider-button">
+                      <a href="catalog.html">Открыть каталог</a>
+                    </div>
+                  </li>
+                </ul>
               </div>
-            </li>
-            <li class="promo-item blue-block">
-              <h3>Инструмент</h3>
-              <div class="promo-button">
-                <a href="#">На все случаи</a>
-              </div>
-            </li>
-            <li class="promo-item pink-block">
-              <h3>Техника</h3>
-              <div class="promo-button">
-                <a href="#">Для стройка</a>
-              </div>
-            </li>
-            <li class="promo-item green-block">
-              <h3>Скидкт 50%</h3>
-              <div class="promo-button">
-                <a href="#">На 350 товаров</a>
-              </div>
-            </li>
-            <li class="promo-item orange-block">
-              <h3>Доставка</h3>
-              <div class="promo-button">
-                <a href="#">Бесплатно</a>
-              </div>
-            </li>
-          </ul>
-          <div class="promo-slider">
-            <ul class="slider-list">
-              <li class="slider-item">
-                <h3>Дрели</h3>
-                <p>Соседям на радость!</p>
-                <img
-                  src="img/slider-image-drel.jpg"
-                  srcset="img/slider-image-drel@2x.jpg 2x"
-                  alt="Фотография дрели? "
-                  width="620"
-                  height="266"
-                />
-                <div class="button slider-button">
-                  <a href="catalog.html">Открыть каталог</a>
-                </div>
-              </li>
-              <li class="slider-item none">
-                <h3>Перфораторы</h3>
-                <p>Настоящие мужские игрушки</p>
-                <img
-                  src="img/slide-image-perf.jpg"
-                  srcset="img/slide-image-perf@2x.jpg 2x"
-                  alt="Фотография перфоратора? "
-                  width="620"
-                  height="266"
-                />
-                <div class="button slider-button">
-                  <a href="catalog.html">Открыть каталог</a>
-                </div>
-              </li>
-            </ul>
+            </div>
+            <div class="right-column">
+              <ul class="promo-list">
+                <li class="promo-item pink-block">
+                  <h3>Техника</h3>
+                  <div class="promo-button">
+                    <a href="#">Для стройка</a>
+                  </div>
+                </li>
+                <li class="promo-item green-block">
+                  <h3>Скидкт 50%</h3>
+                  <div class="promo-button">
+                    <a href="#">На 350 товаров</a>
+                  </div>
+                </li>
+                <li class="promo-item orange-block">
+                  <h3>Доставка</h3>
+                  <div class="promo-button">
+                    <a href="#">Бесплатно</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -212,7 +220,7 @@
                 height="170"
               />
               <span>32500 р.</span>
-              <a>25500р</a>
+              <a href="#">25500р</a>
             </li>
             <li class="product-item">
               <h3>Перфоратор BOSCH BFG 3000</h3>
@@ -224,7 +232,7 @@
                 height="170"
               />
               <span>22500 р.</span>
-              <a>15500р</a>
+              <a href="#">15500р</a>
             </li>
             <li class="product-item">
               <h3>Перфоратор BOSCH BFG 6000</h3>
@@ -236,7 +244,7 @@
                 height="170"
               />
               <span>30500 р.</span>
-              <a>25500р</a>
+              <a href="#">25500р</a>
             </li>
             <li class="product-item">
               <h3>Перфоратор BOSCH BFG 2000</h3>
@@ -247,7 +255,7 @@
                 width="218"
                 height="170"
               />
-              <a>12500р</a>
+              <a href="#">12500р</a>
             </li>
           </ul>
         </section>
@@ -372,7 +380,7 @@
                 </p>
                 <div></div>
               </div>
-              <div class="services-item">
+              <div class="services-item visually-hidden">
                 <h3>Гарантия</h3>
                 <p>
                   Если купленный у нас товар поломается или заискрит, а также в
@@ -382,7 +390,7 @@
                 </p>
                 <div></div>
               </div>
-              <div class="services-item">
+              <div class="services-item visually-hidden">
                 <h3>Кредит</h3>
                 <p>
                   Залезть в долговую яму стало проще! Кредитные консультанты
@@ -425,14 +433,15 @@
             <p>
               Вы можете забрать товар сами, заехав в наш офис
             </p>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="img/map.png"
                 srcset="img/map@2x.png 2x"
                 width="300"
                 height="158"
                 alt="Мы находимся по адресу Большая Конюшенная улица, дом 19"
-            /></a>
+              />
+            </a>
 
             <div class="button feedback-button">
               <a href="#">Заблудились? Напишите нам!</a>
@@ -479,7 +488,7 @@
           <p>
             &copy; 2010-2019 Компания "Техномарт" Все права защищиены
           </p>
-          <ul>
+          <ul class="socials-link">
             <li>
               <a href="vk">
                 <span class="visually-hidden"
@@ -534,11 +543,11 @@
             </li>
           </ul>
           <div class="contacts-back">
-            <p>
+            <p class="mail">
               Обратная связь:
               <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             </p>
-            <p>
+            <p class="copy">
               Разработано -
               <a href="https://htmlacademy.ru/intensive/htmlcss"
                 >htmlacademy.ru</a

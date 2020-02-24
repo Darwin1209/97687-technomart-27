@@ -330,15 +330,26 @@ ul {
   opacity: 0.5;
 }
 
+.main-index {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column {
+  margin-right: 20px;
+}
+
 .promo-list {
-  padding: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
 
 .promo-item {
-  padding: 22px 0px 22px 23px;
+  padding: 22px 0px 21px 23px;
+  margin-bottom: 20px;
   width: 300px;
   color: #ffffff;
 }
@@ -390,23 +401,47 @@ ul {
   background-color: #ffc047;
 }
 
+.slider-list {
+  padding: 0;
+  margin: 0;
+
+}
+
 .slider-item {
   position: relative;
 
   width: 620px;
+  height: 266px;
+  /*min-height не работает, блок становится 270????;*/
 
   background-color: #000000;
   color: #ffffff;
 }
 
 .slider-item h3 {
+  position: absolute;
+  top: 27px;
+  left: 24px;
+
+  margin: 0;
   font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .slider-item p {
+  position: absolute;
+  top: 65px;
+  left: 25px;
   font-size: 18px;
+}
+
+.slider-button {
+  position: absolute;
+  bottom: 22px;
+  left: 25px;
+
+  width: 195px;
 }
 
 .button {
@@ -428,10 +463,6 @@ ul {
 
 .button:active {
   background-color: #ba2732;
-}
-
-.slider-button {
-  width: 195px;
 }
 
 .popular {
@@ -471,6 +502,7 @@ ul {
   display: flex;
 
   margin-top: 74px;
+  margin-bottom: 98px;
 }
 
 .services h2 {
@@ -536,20 +568,54 @@ ul {
 
 .about-company {
   color: #000000;
+  margin-top: 82px;
+  margin-bottom: 86px;
 }
 
 .about-company h2 {
+  margin: 0;
   font-size: 30px;
+  font-weight: normal;
+}
+
+.about-company .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  width: 532px;
+}
+
+.contacts p {
+  width: 195px;
+}
+
+.contacts img {
+  margin-top: 38px;
 }
 
 .about-company p {
+  margin: 0;
+  margin-top: 38px;
+
   font-family: "PTSans", "Arial", "sans-serif";
   font-size: 13px;
   line-height: 1.85;
 }
 
+.about-company .button {
+  margin-top: 40px;
+}
+
 .about-company-list {
+  margin: 0;
+  padding: 0 0 0 40px;
   font-size: 18px;
+}
+
+.about-company-list li {
+  margin-top: 18px;
 }
 
 .company-button {
@@ -566,6 +632,7 @@ ul {
 
 .footer .container {
   display: flex;
+  margin-bottom: 52px;
 }
 
 .footer-info {
@@ -636,6 +703,45 @@ ul {
   line-height: 1.13;
   color: #ffffff;
   background-color: #293449;
+}
+
+.footer-contacts-back .container {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 132px;
+  padding: 0;
+}
+
+.socials-link li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+  background-color: #212a3a;
+}
+
+.contacts-back {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.contacts-back .mail {
+  width: 135px;
+}
+
+.contacts-back .copy {
+  width: 100px;
 }
 
 .contacts-back a {
@@ -757,25 +863,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.about-company {
-  margin-top: 82px;
-  margin-bottom: 86px;
-}
-
-.about-company .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.company {
-  width: 520px;
-}
-
-.contacts p {
-  width: 195px;
-}
-
-//Styles for catalog
+/* Styles for catalog */
 
 .user-block {
   margin-left: auto;
