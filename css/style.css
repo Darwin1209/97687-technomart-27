@@ -711,6 +711,10 @@ ul {
   margin-bottom: 0;
 }
 
+.footer-contacts-back p {
+  width: 245px;
+}
+
 .socials-link {
   display: flex;
   justify-content: space-between;
@@ -869,6 +873,18 @@ ul {
   margin-left: auto;
 }
 
+.header-login--catalog {
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.header-login--catalog li:first-child {
+  margin-right: 32px;;
+}
+
 .main-catalog {
   font-family: "PTSans", "Arial", "sans-serif";
 }
@@ -887,6 +903,8 @@ ul {
 
 .bread li {
   padding-right: 32px;
+
+  text-transform: uppercase;
 }
 
 .bread a {
@@ -898,6 +916,7 @@ ul {
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
+  text-transform: uppercase;
 }
 
 .column-left {
@@ -923,6 +942,7 @@ ul {
 }
 
 .catalog-title h1 {
+  font-weight: normal;
   margin: 0;
 }
 
@@ -975,6 +995,19 @@ ul {
   color: #ee3643;
 }
 
+.filter {
+  width: 220px;
+}
+
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
 .filter legend {
   font-size: 17px;
   font-weight: bold;
@@ -985,10 +1018,28 @@ ul {
   font-size: 15px;
 }
 
+fieldset ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 27px;
+  padding-left: 35px;
+}
+
+.produce-list {
+  height: 171px;
+}
+
+.power-list {
+  height: 51px;
+}
+
 .filter button {
   width: 140px;
   padding-top: 7px;
   padding-bottom: 7px;
+  margin-top: 53px;
 
   line-height: 1.38;
   text-align: center;
@@ -998,6 +1049,10 @@ ul {
   cursor: pointer;
 }
 
+.filter .filter-power {
+  border: 0;
+}
+
 .pages {
   margin: 52px 0 60px 0;
   padding: 0;
@@ -1005,7 +1060,6 @@ ul {
 }
 
 .pages li {
-  padding: 14px 17px;
   margin-right: 10px;
 
   font-size: 13px;
@@ -1021,7 +1075,14 @@ ul {
 }
 
 .pages a {
+  display: block;
+  padding: 12px 15px;
   color: #000000;
+}
+
+.pages .last-pages {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .pages .active-page {
@@ -1065,6 +1126,8 @@ ul {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+
+  text-transform: none;
 }
 
 .product-list .product-item {
